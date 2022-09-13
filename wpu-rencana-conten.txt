@@ -4,6 +4,7 @@ Rencana KONTEN WPU
   * ES6
   * Framework JavaScript
   * Vue
+  * React
 - Struktur data dasar
 - PHP Framework
 * Laravel
