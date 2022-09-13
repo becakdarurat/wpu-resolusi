@@ -3,6 +3,8 @@ Rencana KONTEN WPU
 - JavaScript
   * ES6
   * Framework JavaScript
-- Struktur data dasar
+  - Angular 
+  - React
 - PHP Framework
+* Laravel
 - Vlogs
