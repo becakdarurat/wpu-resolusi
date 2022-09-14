@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+input {
+    display: block;
+    margin-bottom: 3px;
+    padding: 15px;
+}
+.container{
+    width: 500px;
+    margin: 30px auto;
+    border: 5px solid black;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+}
+input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+}
+button {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    background-color: lightblue;
+    border-radius: 20px;
+}
+.gambar {
+    width: 500px;
+}
+.kotak {
+    background-color: lightblue;
+    box-sizing: border-box;
+    width: 100%;
+}
+.p {
+    text-align: center;
+}
+
+

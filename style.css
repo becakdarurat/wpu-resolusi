@@ -1,0 +1,15 @@
+.jumbotron {
+    padding-top: 6rem;
+    background-color: black;
+}
+#project {
+    background-color: #273036;
+}
+.navbar {
+    position: sticky ;
+    top: 0;
+    z-index: 1;
+}
+section {
+    padding-top: 5rem;
+}

@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #333;
+}
+.punk {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+.navigasi {
+    display: flex;
+    padding: 20px;
+}
+a {
+    color: white;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+.first {
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.last {
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    color: red;
+}
+.container {
+    background-color: black;
+    width: 1000px;
+    margin:auto;
+    align-items: center;
+}
+.navigasi {
+    list-style: none;
+}
+.navigasi li a {
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.logout {
+    background-color: orange;
+    padding: 10px;
+}
+.navigasi li a:hover {
+    background-color: lightblue;
+    color: green;
+}
+.section {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    border: 2px solid white;
+}
+.section1 img {
+    width: 200px;
+    border-radius: 50%;
+}
+p {
+    color: white;
+}
+.section1 {
+    width: 1000px;
+    display: flex;
+    margin: auto;
+}
+.salahbanyak {
+    display: block;
+    margin: 25px auto;
+}
+h2 {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.benar {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}

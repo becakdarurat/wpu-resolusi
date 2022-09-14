@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="Quiz.css">
+    <style>
+       
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="container">
+        <h1>Quiz Singkat</h1>
+        <label for="presiden">1.Siapakah Presiden Indonesia 2022</label> <br>
+        Jawab :<input type="text" id="presiden">
+        <div id="presiden_response"></div>
+        <label for="boruto">2.Siapakah Ayah Boruto</label> <br>
+        Jawab :<input type="text" id="boruto">
+        <div id="boruto_response"></div>
+        <label for="presiden1">3.Siapakah Ayah dari sarada</label> <br>
+        Jawab :<input type="text" id="presiden1">
+        <div id="presiden_response1"></div>
+        <label for="presiden">4.Siapakah wakil presiden 2022</label> <br>
+        Jawab :<input type="text" id="presiden2">
+        <div id="presiden_response2">
+        </div><label for="presiden">5.Siapakah Istri dari Naruto</label> <br>
+        Jawab :<input type="text" id="presiden3">
+        <div id="presiden_response3"></div>
+        <br>
+        <button onclick="cek()"  class="btn">Kirim</button>
+    </div>
+    </div>
+    <script>
+
+        function cek(){
+            const presiden = document.getElementById('presiden');
+            const presiden_response = document.getElementById('presiden_response');
+            const boruto = document.getElementById('boruto');
+            const boruto_response = document.getElementById('boruto_response');
+            const presiden1 = document.getElementById('presiden1');
+            const presiden_response1 = document.getElementById('presiden_response1');
+            const presiden2 = document.getElementById('presiden2');
+            const presiden_response2 = document.getElementById('presiden_response2');
+            const presiden3 = document.getElementById('presiden3');
+            const presiden_response3 = document.getElementById('presiden_response3');
+            if(presiden.value == 'jokowi'){
+                presiden_response.innerHTML = 'Jawaban Kamu benar'
+                presiden_response.style = "color: green;"
+            } else {
+                presiden_response.innerHTML = 'Jawaban Kamu Salah'
+                presiden_response.style = "color: red;"
+            }
+            if(boruto.value == 'naruto'){
+                boruto_response.innerHTML = 'Jawaban Kamu benar'
+                boruto_response.style = "color: green;"
+            } else {
+                boruto_response.innerHTML = 'Jawaban Kamu Salah'
+                boruto_response.style = "color: red;"
+            }
+            if(presiden1.value == 'Sasuke'){
+                presiden_response1.innerHTML = 'Jawaban Kamu benar'
+                presiden_response1.style = "color: green;"
+            } else {
+                presiden_response1.innerHTML = 'Jawaban Kamu Salah'
+                presiden_response1.style = "color: red;"
+            }
+            if(presiden2.value == 'marufamin'){
+                presiden_response2.innerHTML = 'Jawaban Kamu benar'
+                presiden_response2.style = "color: green;"
+            } else {
+                presiden_response2.innerHTML = 'Jawaban Kamu Salah'
+                presiden_response2.style = "color: red;"
+            }
+            if(presiden3.value == 'Hinata'){
+                presiden_response3.innerHTML = 'Jawaban Kamu benar'
+                presiden_response3.style = "color: green;"
+            } else {
+                presiden_response3.innerHTML = 'Jawaban Kamu Salah'
+                presiden_response3.style = "color: red;"
+            }
+        }
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+body {
+    background-color: #333;
+}
+.box {
+    margin: 25px auto;
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    padding: 20px;
+}
+h1 {
+    background-color: blue;
+    text-align: center;
+    border-radius: 50px;
+    color: white;
+}
+input {
+    padding: 10px;
+}
+.btn {
+    width: 100%;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+}
+.btn:hover {
+    background-color: green;
+    color: white;
+}
